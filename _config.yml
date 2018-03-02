@@ -36,7 +36,7 @@ links:
     - title: 发布
       url: /posts
       key_trigger: 2
-    - title: 系列
+    - title: 分类
       url: /series
       key_trigger: 3
     - title: 标签

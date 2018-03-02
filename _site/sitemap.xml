@@ -2,11 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>http://kamiknows.github.io//sharding/</loc>
-	  </url>
-	
-	  <url>
-		<loc>http://kamiknows.github.io//space/</loc>
+		<loc>http://localhost:4000/foreword/</loc>
 	  </url>
 	
 </urlset>
