@@ -1,0 +1,18 @@
+---
+layout: minimal
+title: "关于我"
+permalink: /about/index.html
+description: ""
+---
+
+<img itemprop="image" class="img-rounded about_perfil" src="/assets/img/avatar.jpg" alt="My profile">
+
+<h3>沉睡的顽童，梦就像烈酒</h3>
+
+<div class="aboutme">
+	<ul class="recent">
+		{% for project in site.projects %}
+	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
+	    {% endfor %}
+	</ul>
+</div>

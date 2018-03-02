@@ -1,40 +1,70 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: 顽童的梦与酒
-email: 
-description: Only kami knows
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "kamiknows.github.io" 
-twitter_username: jekyllrb
-github_username:  jekyll
+description: "昏睡的顽童，梦就像烈酒"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://kamiknows.github.io/"
+
+# User settings
+username: Kami
+user_title: Kami - FrontEnd
+email: huany63@gmail.com
+# twitter_username: loremipsum
+# github_username:  loremipsum
+# gplus_username:  loremipsum
+# linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+disqus_username: kamiknows-github-io
+profile_picture: /assets/img/avatar.jpg
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+highlighter: rouge
+permalink: /:title/
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  section_1:
+    - title: 主页
+      url: /
+      key_trigger: 1
+    - title: 发布
+      url: /posts
+      key_trigger: 2
+    - title: 系列
+      url: /series
+      key_trigger: 3
+    - title: 标签
+      url: /tags
+      key_trigger: 4
+    - title: 关于我
+      url: /about
+      key_trigger: 5
+  section_2:
+    - title: github
+      url: https://github.com/kamiknows
+      new_tab: true
+      key_trigger: g
+    - title: twitter
+      url: http://www.twitter.com
+      key_trigger: t
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+# projects in header index
+projects:
+#   - name: fluany
+#     url: https://github.com/fluany/fluany
+#   - name: vim-frontend
+#     url: https://github.com/victorvoid/vim-frontend
+#   - name: generator-capybara
+#     url: https://github.com/victorvoid/generator-capybara 
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
