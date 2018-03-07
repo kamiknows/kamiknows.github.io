@@ -3,11 +3,26 @@
   <channel>
     <title>顽童的梦与酒</title>
     <description>昏睡的顽童，梦就像烈酒</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Mar 2018 03:50:52 +0800</pubDate>
-    <lastBuildDate>Sat, 03 Mar 2018 03:50:52 +0800</lastBuildDate>
+    <link>http://kamiknows.github.io//</link>
+    <atom:link href="http://kamiknows.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 08 Mar 2018 00:20:12 +0800</pubDate>
+    <lastBuildDate>Thu, 08 Mar 2018 00:20:12 +0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>我想和你虚度时光</title>
+        <description>
+</description>
+        <pubDate>Thu, 08 Mar 2018 00:00:00 +0800</pubDate>
+        <link>http://kamiknows.github.io//with-you/</link>
+        <guid isPermaLink="true">http://kamiknows.github.io//with-you/</guid>
+        
+        <category>梦</category>
+        
+        
+        <category>Blog</category>
+        
+      </item>
     
       <item>
         <title>也无风雨也无晴</title>
@@ -29,13 +44,13 @@
 &lt;p&gt;我又想犯个懒了。后面再更吧。&lt;/p&gt;
 </description>
         <pubDate>Sat, 03 Mar 2018 00:03:43 +0800</pubDate>
-        <link>http://localhost:4000/foreword/</link>
-        <guid isPermaLink="true">http://localhost:4000/foreword/</guid>
+        <link>http://kamiknows.github.io//foreword/</link>
+        <guid isPermaLink="true">http://kamiknows.github.io//foreword/</guid>
         
         <category>梦</category>
         
         
-        <category>生活</category>
+        <category>Blog</category>
         
       </item>
     
